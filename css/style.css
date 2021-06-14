@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main_container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.logo img{
+    display: inline-block;
+    position: absolute;
+    left: 4rem;
+}
+.top_nav{
+    padding: 1rem;
+    position: relative;
+    
+}
+.top_nav ul{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.top_nav ul li{
+    border-bottom: 1px solid white;
+    display: inline-block;
+    margin: 1rem;
+    text-decoration: none;
+    
+}
+.top_nav ul li a{
+    text-decoration: none;
+    color: #005b82;
+    font-size: 1rem;
+}
+.top_nav ul li:hover{
+    color: #005b82;
+    cursor: pointer;
+    border-bottom: 1px solid tomato;
+}
+.big_slider{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.sliders img{
+    width: 100%;
+    height: 400px;
+}.content{
+    color: white;
+    background-color: #005b82;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 17rem;
+}
+.content:hover{
+    background-color: white;
+    color: #005b82;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    color: rgb(226, 221, 221);
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.mobile img{
+    width: 30rem;
+    height: 15rem;
+    
+}
+.mobile_text{
+    display: inline-block;
+    text-align: justify;
+    width: 30rem;
+    height: 18rem;
+    padding-left: 5rem;
+    margin-left: 5rem;
+}
+.mobile_text h4{
+    color: #005b82;
+    margin-top: 3rem;
+}
+.mobile_text h3{
+    color: rgb(173, 167, 167);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.mobile_text .mobile_btn{
+    color: white;
+    background-color: #005b82;
+    border: 1px solid #005b82;
+    border-radius: 15px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+.mobile_text .mobile_btn:hover{
+    background-color: white;
+    color: #005b82;
+    cursor: pointer;
+}
+.bottom{
+    height: 22rem;
+    width: 100%;
+}
+.bottom .bottom_in{
+    background-color: #023448;
+    height: 15rem;
+}
+.bottom .bottom_in .left{
+    display: inline-block;
+    color: white;
+    margin-left: 10rem;
+}
+.bottom .bottom_in .left h3{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.bottom .bottom_in .left ul li{
+    list-style: none;
+    padding-top: 1rem;
+}
+.bottom .bottom_in .left ul li i{
+    color: greenyellow;
+}
+.bottom .bottom_in .left ul li:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+.bottom .bottom_in .middle{
+    display: inline-block;
+    color: white;
+    margin-left: 10rem;
+}
+.bottom .bottom_in .middle ul li{
+    list-style: none;
+    padding-top: 1rem;
+}
+.bottom .bottom_in .middle ul li i{
+    color: greenyellow;
+}
+.bottom .bottom_in .middle ul li:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+.bottom .bottom_in .right{
+    display: inline-block;
+    color: white;
+    margin-left: 10rem;
+    font-size: 1.4rem;
+}
+.bottom .bottom_in .right img{
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.bottom .bottom_in .foot_btn{
+    background-color: #0380b6;
+    border: 1px solid #0380b6;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+}
+.bottom .bottom_in .foot_btn:hover{
+    background-color: #2b9ccc;
+    cursor: pointer;
+    color: white;
+}
+.bottom .bottom_in .right ul li{
+    list-style: none;
+    padding-top: 1rem;
+}
+.bottom .bottom_in .right ul li img{
+    width: 3rem;
+    height: 3rem;
+}
+
+ .bottom .bottom_second{
+    background-color: #022837;
+    height: 7rem;
+}
+.bottom .bottom_second .search_social{
+    margin-left: 10rem;
+    padding-top: 1.5rem;
+
+}
+.bottom .bottom_second .search_social ul{
+    list-style: none;
+}
+.bottom .bottom_second .search_social ul li{
+    display: inline-block;
+}
+.bottom .bottom_second .search_social ul li input{
+    width: 35rem;
+    height: 1.95rem;
+    padding-left: 1.5rem;
+    margin-left: 12rem;
+}
+.bottom .bottom_second .search_social ul li input:focus{
+    outline: none;
+}
+
+.bottom .bottom_second .search_social ul li .social_btn{
+    border: none;
+    background-color: greenyellow;
+    height: 2.1rem;
+    width: 2.5rem;
+    margin-left: -1rem;
+    
+}
+.bottom .fa_fa{
+    color: white;
+    margin-right: 4rem;
+    margin-top: 0.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+}
+.bottom .fa_fa ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 2rem;
+}
+.bottom .fa_fa ul li:hover{
+    color: #0380b6;
+    cursor: pointer;
+}
+
+
+
+/* CSS FOR E-BANKING PAGE */
+
+.top_image img{
+    width: 100%;
+}
+.contact_form{
+    position: relative;
+    width: 60rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_form .form_details{
+    width: 40rem;
+    height: 29rem;
+    display: inline-block;
+    position: absolute;
+}
+.contact_form .form_details h3{
+    color: #0380b6;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.contact_form .form_details h4{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.contact_form .form_details input{
+    margin-left: 3rem;
+    height: 2rem;
+    width: 30rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.contact_form .form_details input:focus{
+    outline: none;
+    border-color: #0380b6;
+}
+.contact_form .form_details textarea{
+    margin-left: 3rem;
+    width: 30rem;
+}
+.contact_form .form_details button{
+    background-color: #2b9ccc;
+    border: none;
+    border-radius: 5px;
+    width: 30rem;
+    height: 2rem;
+    color: white;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+.contact_form .form_details button:hover{
+    border: 1px solid #0380b6;
+    color: #0380b6;
+    cursor: pointer;
+    background-color: white;
+}
+.contact_form .contact_details{
+    width: 19rem;
+    height: 29rem;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.contact_form .contact_details h3{
+    color: #0380b6;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+.contact_form .contact_details .address{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.deposit{
+    width: 60rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.deposit .deposit_display{
+    border-radius: 20px;
+    width: 40rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+    padding-left: 2rem;
+    background-color: white;
+}
+.deposit .deposit_display h3{
+    color: #005b82;
+    margin-top: 5rem;
+    display: inline-block;
+}
+.deposit .deposit_display input{
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 1rem;
+}
+.deposit .deposit_display input:focus{
+    outline: none;
+    border-color: 1px solid #0380b6;
+}
+.deposit .deposit_display button{
+    background-color: #2b9ccc;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.deposit .deposit_display button:hover{
+    border: 1px solid #0380b6;
+    color: #0380b6;
+    cursor: pointer;
+    background-color: white;
+}
+.deposit .deposit_display #display{
+    height: 5rem;
+    width: 15rem;
+    font-size: 2rem;
+    color: #005b82;
+    position: absolute;
+    padding-top: 3rem;
+    top: 5rem;
+    right: 10rem;
+}
+
+.deposit .deposit_login{
+    background-color: white;
+    border: 1px solid #0380b6;
+    border-radius: 20px;
+    width: 40rem;
+    height: 20rem;
+    position: absolute;
+    top: 0rem;
+    left: 10rem;
+}
+.deposit .deposit_login h4{
+    color: #0380b6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.deposit .deposit_login h5{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.deposit .deposit_login input{
+    width: 30rem;
+    height: 2rem;
+    border: none;
+    margin-left: 5rem;
+    border-bottom: 1px solid gray;
+}
+.deposit .deposit_login input:focus{
+    outline: none;
+    border-color: #0380b6;
+}
+.deposit .deposit_login button{
+    margin-top: 2rem;
+    background-color: #2b9ccc;
+    border: none;
+    border-radius: 5px;
+    width: 10rem;
+    height: 2rem;
+    color: white;
+    font-size: 1rem;
+    margin-left: 15rem;
+    margin-right: auto;
+
+}
+.deposit .deposit_login button:hover{
+    border: 1px solid #0380b6;
+    color: #0380b6;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+/* CSS FOR ABOUT PAGE */
+.about_img img{
+    width: 100%;
+}
+.about_content{
+    width: 70rem;
+    height: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+td img{
+    width: 20rem;
+}
+
+
+
+/* CSS FOR PRODUCT AND SERVICES PAGE */
+
+.product_image img{
+    width: 100%;
+}
+.product_content{
+    width: 70rem;
+    height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}td h3{
+    margin-top: 2rem;
+}
+td h4{
+    font-size: 2rem;
+    color: rgb(73, 73, 73);
+    font-weight: lighter;
+}
+td button{
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #0380b6;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+td button:hover{
+    border: 1px solid #0380b6;
+    background-color: white;
+    color: #0380b6;
+    cursor: pointer;
+}
+
+
+
